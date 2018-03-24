@@ -1,7 +1,7 @@
 """A client to interact with node and to save data to mongo."""
 
 from pymongo import MongoClient
-import crawler_util
+from . import crawler_util
 import requests
 import json
 import sys
